@@ -4,7 +4,8 @@
 
 1. [Description](#description)
 2. [Requirements](#requirements)
-3. [Usage](#usage)
+3. [Instllation](#installation)
+4. [Usage](#usage)
 
 ## Description
 
