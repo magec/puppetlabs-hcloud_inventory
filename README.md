@@ -48,7 +48,7 @@ Allowed options:
 groups:
   - name: nodes
     targets:
-      - _plugin: hetzner_inventory
+      - _plugin: hcloud_inventory
 	    api_token: SECRET
     config:
       ssh:
