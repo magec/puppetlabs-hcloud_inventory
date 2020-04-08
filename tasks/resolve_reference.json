@@ -1,0 +1,13 @@
+{
+  "description": "Generate targets from Hetzner cloud services",
+  "files": ["ruby_task_helper/files/task_helper.rb",
+    "ruby_plugin_helper/lib/plugin_helper.rb"
+  ],
+  "input_method": "stdin",
+  "parameters": {
+    "api_token": {
+      "type": "String[1]"
+    }
+  },
+  "private": true
+}
