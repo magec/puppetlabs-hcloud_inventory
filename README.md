@@ -18,6 +18,19 @@ manually using bolt's gem command.
 ```
 /opt/puppetlabs/bolt/bin/gem install hcloud
 ```
+## Installation
+
+Add this line to your Puppetfile:
+
+```
+mod 'puppetlabs-hcloud_inventory', :git => 'https://github.com/magec/puppetlabs-hcloud_inventory.git'
+```
+
+and execute:
+
+```
+$ bolt puppetfile install
+```
 
 ## Usage
 
