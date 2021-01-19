@@ -9,7 +9,10 @@ class HetznerInventory < TaskHelper
   attr_reader :gateway
 
   def resolve_reference(opts)
-    Hcloud::Client.new(token: opts.fetch(:api_token)).servers.map do |s|
+    Hcloud::Client.new(
+      token: opts.fetch(:api_token),
+      auto_pagination: true
+    ).servers.map do |s|
       s.public_net['ipv4']['ip']
     end
   end
